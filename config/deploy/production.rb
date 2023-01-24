@@ -1,4 +1,4 @@
-server "opensauce.srvz-webapp.he-arc.ch", user: "poweruser", roles: %w{app db web}, port: 2278
+server "34.212.27.85", user: "ubuntu", roles: %w{app db web}, port: 22
 set :deploy_to, "/var/www/#{fetch(:application)}"
 
 # ssh -p 2278 poweruser@opensauce.srvz-webapp.he-arc.ch
