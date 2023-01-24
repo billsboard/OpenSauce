@@ -26,6 +26,6 @@ pytz==2018.9
 redis==2.10.6
 six==1.12.0
 twisted>=20.3.0
-txaio==18.8.1
+txaio>=18.8.1
 Unidecode==1.0.23
 zope.interface==4.6.0
